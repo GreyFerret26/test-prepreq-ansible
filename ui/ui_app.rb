@@ -39,7 +39,7 @@ end
 set :zipkin_enabled, ZIPKIN_ENABLED
 zipkin_config = {
     service_name: 'ui_app',
-    service_port: 9393,
+    service_port: 9292,
     sample_rate: 1,
     sampled_as_boolean: false,
     log_tracing: true,
