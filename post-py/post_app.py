@@ -161,8 +161,8 @@ def vote():
 
 
 # Add new post
-@app.route('/add_post', methods=['POST'])
-def add_post():
+@app.route('/new', methods=['POST'])
+def new():
     try:
         title = request.values.get('title')
         link = request.values.get('link')
